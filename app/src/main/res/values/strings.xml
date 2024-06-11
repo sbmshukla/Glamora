@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Glamora</string>
+    <string name="introText">Unveiling a World <font color="#169955">Beauty &amp; Cosmetic</font>  Products!</string>
+    <string name="introSubtitle">Browse the latest style from top brands \n Get personalized recommendations \n Enjoy fast, free shipping</string>
+    <string name="lets_get_started_button_text">Let\'s Get Started</string>
+</resources>
