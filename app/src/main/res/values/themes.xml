@@ -6,4 +6,10 @@
     </style>
 
     <style name="Theme.Glamora" parent="Base.Theme.Glamora" />
+
+    <style name="CircleImageView">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10%</item>
+    </style>
+
 </resources>

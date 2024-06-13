@@ -73,7 +73,7 @@
                     android:layout_marginTop="@dimen/_16sdp">
 
                     <ProgressBar
-                        android:id="@+id/progressBar"
+                        android:id="@+id/progressBarBanner"
                         style="?android:attr/progressBarStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -88,6 +88,9 @@
                         android:id="@+id/viewPagerSlider"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_160sdp"
+                        android:paddingStart="@dimen/_24sdp"
+                        android:paddingEnd="@dimen/_24sdp"
+
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
@@ -99,7 +102,7 @@
                         android:layout_marginTop="@dimen/_4sdp"
                         android:layout_marginBottom="@dimen/_4sdp"
                         android:visibility="gone"
-                        app:dotsColor="@color/green"
+                        app:dotsColor="@color/grey"
                         app:dotsCornerRadius="@dimen/_8sdp"
                         app:dotsSize="@dimen/_6sdp"
                         app:dotsSpacing="@dimen/_2sdp"
@@ -145,7 +148,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:clipToPadding="false"
-                        android:paddingStart="@dimen/_16sdp"
+                        android:paddingStart="@dimen/_20sdp"
                         android:paddingEnd="@dimen/_16sdp"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -153,7 +156,7 @@
                         app:layout_constraintTop_toTopOf="parent" />
 
                     <ProgressBar
-                        android:id="@+id/progressBar2"
+                        android:id="@+id/progressbarCategories"
                         style="?android:attr/progressBarStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
